@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap project</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/0758df5986.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/mobile-style.css" />
+  </head>
+
+  <body>
+    <header>
+      <!-- Navbar -->
+      <div class="container-fluid" p-0>
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <i class="fas fa-book-reader fa-3x mx-3"></i>
+              Books</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fas fa-align-right text-light"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <div class="me-auto"></div>
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Course</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Price</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <div class="dropdown">
+                    <a href="#" class="nav-link">Pages</a>
+                    <div class="dropdown-content">
+                      <a href="#">Generic</a>
+                      <a href="#">Element</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Fact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- Hero -->
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-7 col-sm-12">
+            <h6>AUTHOR: James Clear</h6>
+            <h1>Atomic Habits</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nam
+              beatae sequi ratione? Ullam pariatur hic iusto sint ipsum libero?
+            </p>
+            <button class="btn btn-light px-5 py-2">Buy now for $9.99</button>
+          </div>
+          <div class="col-md-5 col-sm-12">
+            <img src="./images/atomic.jpg" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-one">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="photo">
+                <img src="./images/newfoto.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="panel text-left">
+                <h1>Mr.James Clear</h1>
+                <p class="pt-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                  maxime soluta ad adipisci assumenda minus totam est enim
+                  aperiam! Repudiandae molestiae ratione, delectus quis modi
+                  ipsum fugit sint. Rem, vero.
+                </p>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Eveniet expedita perspiciatis dicta placeat, et minima illo
+                  eum, nobis itaque earum natus quisquam delectus, id ipsa
+                  deleniti quidem nisi neque dolor vero vitae odit repudiandae
+                  nulla molestiae? Aperiam aliquid quibusdam iste cupiditate
+                  sunt excepturi, cumque at architecto necessitatibus porro
+                  voluptates aliquam iusto harum hic eligendi fuga temporibus
+                  nam expedita! Id, voluptas.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-two container-fluid p-0">
+        <div class="cover">
+          <div class="content text-center">
+            <h1>Lorem ipsum dolor sit amet.</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia,
+              placeat.
+            </p>
+          </div>
+          <div class="container-fluid text-center">
+            <div
+              class="numbers d-flex flex-md-row flex-wrap justify-content-center"
+            >
+              <div class="rect">
+                <h1>2345</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+              </div>
+              <div class="rect">
+                <h1>6785</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+              </div>
+              <div class="rect">
+                <h1>9865</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              </div>
+              <div class="rect">
+                <h1>8765</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="purchase text-center">
+          <h1>Lorem ipsum dolor sit amet.</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+          <div class="cards">
+            <div class="d-flex flex-row justify-content-center flex-wrap">
+              <!-- First Card -->
+              <div class="card">
+                <div class="card-body">
+                  <div class="title">
+                    <h5 class="card-title">PDF</h5>
+                  </div>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <div class="pricing">
+                    <h1>$77.99</h1>
+                    <a href="#" class="btn btn-dark px-5 py-2 mb-5"
+                      >Purchase Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- Second Card -->
+              <div class="card">
+                <div class="card-body">
+                  <div class="title">
+                    <h5 class="card-title">E-Book</h5>
+                  </div>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <div class="pricing">
+                    <h1>$99.99</h1>
+                    <a href="#" class="btn btn-dark px-5 py-2 mb-5"
+                      >Purchase Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- Third Card -->
+              <div class="card">
+                <div class="card-body">
+                  <div class="title">
+                    <h5 class="card-title">Print copy</h5>
+                  </div>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <div class="pricing">
+                    <h1>$58.99</h1>
+                    <a href="#" class="btn btn-dark px-5 py-2 mb-5"
+                      >Purchase Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-three container-fluid p-0 text-center">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <h1>Download our app for all platforms</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="platfrom row">
+          <div class="col-md-6 col-sm-12 text-end">
+            <div class="desktop shadow-lg">
+              <div class="d-flex flex-row justify-content-center">
+                <i class="fas fa-desktop fa-3x py-2 px-3"></i>
+                <div class="text text-start">
+                  <h3 class="pt-1 m-0">Desktop</h3>
+                  <p class="p-0 m-0">On Website</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12 text-start">
+            <div class="desktop shadow-lg">
+              <div class="d-flex flex-row justify-content-center">
+                <i class="fas fa-mobile-alt fa-3x py-2 px-3"></i>
+                <div class="text text-start">
+                  <h3 class="pt-1 m-0">Mobile</h3>
+                  <p class="p-0 m-0">On Mobile</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-four">
+        <div class="container text-center">
+          <h1 class="text-dark">What Our Reader's Say About Us</h1>
+          <p class="text-secondary">Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="team row">
+          <div class="col-md-4 text-center">
+            <!-- Card 1-->
+            <div class="card mx-2 d-inline-block shadow-lg">
+              <div class="card-img-top">
+                <img src="./images/portret1.jpg" alt="P1" class="img-fluid" />
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">A-Z</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Aperiam debitis magni nam dignissimos, saepe facilis neque
+                  voluptatum, nulla temporibus odio cum dolor mollitia inventore
+                  consequatur quae deserunt vitae, impedit ratione!
+                </p>
+                <a href="#" class="text-decoration-none">Go somewhere</a>
+                <p class="text-black-50">CEO at google</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <!--Carousel -->
+            <div
+              id="carouselExampleSlidesOnly"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active text-center">
+                  <!--Card 2 -->
+                  <div class="card mx-2 d-inline-block shadow-lg">
+                    <div class="card-img-top">
+                      <img
+                        src="./images/portret2.jpg"
+                        alt="P1"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h3 class="card-title">A-Z</h3>
+                      <p class="card-text">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Aperiam debitis magni nam dignissimos, saepe
+                        facilis neque voluptatum, nulla temporibus odio cum
+                        dolor mollitia inventore consequatur quae deserunt
+                        vitae, impedit ratione!
+                      </p>
+                      <a href="#" class="text-decoration-none">Go somewhere</a>
+                      <p class="text-black-50">CEO at google</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item text-center">
+                  <div class="card mx-2 d-inline-block shadow-lg">
+                    <div class="card-img-top text-center">
+                      <!-- Card 3-->
+                      <img
+                        src="./images/portret3.jpg"
+                        alt="P1"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h3 class="card-title">A-Z</h3>
+                      <p class="card-text">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Aperiam debitis magni nam dignissimos, saepe
+                        facilis neque voluptatum, nulla temporibus odio cum
+                        dolor mollitia inventore consequatur quae deserunt
+                        vitae, impedit ratione!
+                      </p>
+                      <a href="#" class="text-decoration-none">Go somewhere</a>
+                      <p class="text-black-50">CEO at google</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <!-- Card 4-->
+            <div class="card mx-2 d-inline-block shadow-lg">
+              <div class="card-img-top">
+                <img src="./images/portret4.jpg" alt="P1" class="img-fluid" />
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">A-Z</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Aperiam debitis magni nam dignissimos, saepe facilis neque
+                  voluptatum, nulla temporibus odio cum dolor mollitia inventore
+                  consequatur quae deserunt vitae, impedit ratione!
+                </p>
+                <a href="#" class="text-decoration-none">Go somewhere</a>
+                <p class="text-black-50">CEO at google</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="containter-fluid p-0">
+        <div class="row text-start">
+          <div class="col-md-5">
+            <h4 class="text-light">About Us</h4>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+              tenetur?
+            </p>
+            <p class="pt-4 text-muted">
+              © 2020 Copyright: <span>Shpresim Musliu</span>
+            </p>
+          </div>
+          <div class="col-md-5">
+            <h4 class="text-light">Newsletter</h4>
+            <p class="text-muted">Stay updated</p>
+            <form class="form-inline">
+              <div class="col-mx-0">
+                <div class="input-group pl-5">
+                  <input
+                    type="text"
+                    class="from-control bg-dark text-white"
+                    placeholder="Email"
+                  />
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">
+                      <i class="fas fa-arrow-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-2 col-sm-12">
+            <h4 class="text-light">Follow Us</h4>
+            <p class="text-muted">Let us be social</p>
+            <div class="column">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-youtube"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

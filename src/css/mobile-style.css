@@ -1,0 +1,27 @@
+@media only screen and (max-width: 375px) {
+  header {
+    height: 140vh !important;
+  }
+  .section-one {
+    height: 135vh;
+  }
+  .panel {
+    padding-left: 100px !important;
+  }
+  .purchase {
+    margin-top: 800px;
+  }
+  .text-start {
+    width: 50% !important;
+  }
+  .text-end {
+    width: 50% !important;
+  }
+  .input-group {
+    flex-wrap: unset;
+    margin-bottom: 15px;
+  }
+  .navbar-brand {
+    padding-left: 0 !important;
+  }
+}
